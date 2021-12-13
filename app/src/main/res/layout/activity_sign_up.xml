@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupback"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:background="#83B2C9D3"
+        android:textColorHint="#7F64BC"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:inputType="textPersonName"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:background="#83B2C9D3"
+        android:textColorHint="#7F64BC"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"
+        android:fontFamily="serif"
+        android:layout_below="@id/input_name"
+        android:textStyle="bold"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/input_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:background="#83B2C9D3"
+        android:textColorHint="#7F64BC"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:inputType="number"
+        android:fontFamily="serif"
+        android:layout_below="@id/input_email"
+        android:textStyle="bold"
+        android:importantForAutofill="no" />
+
+
+
+    <EditText
+        android:id="@+id/input_password"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83B2C9D3"
+        android:textColorHint="#7F64BC"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_baseline_info_24"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        android:layout_below="@id/input_phoneno"
+        android:textStyle="bold"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#4F455EE4"
+        android:text="@string/create_account"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/existingUser"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@id/input_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#00455EE4"
+        android:text="@string/existing"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="oldUsermethod"/>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+    tools:context=".HomePageActivity">
+
+
+    <ImageButton
+        android:id="@+id/mumbtn"
+        android:layout_width="161dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="336dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mumbaicity"
+        android:onClick="hotelMum"/>
+
+    <ImageButton
+        android:id="@+id/punebtn"
+        android:layout_width="161dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="179dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/punecity"
+        android:onClick="hotelPune"/>
+
+    <ImageButton
+        android:id="@+id/ngpbtn"
+        android:layout_width="161dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="176dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/nagpurcity"
+        android:onClick="hotelNgp"/>
+
+    <ImageButton
+        android:id="@+id/goabtn"
+        android:layout_width="161dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="334dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/goacity"
+        android:onClick="hotelGoa"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="WANT TO TRAVEL ? THEN WHY WAIT... JUST CHOOSE!!"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goabtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="505dp"
+        android:backgroundTint="#90EA3902"
+        android:onClick="logout"
+        android:text="LOGOUT"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+
+

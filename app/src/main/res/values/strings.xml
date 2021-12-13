@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Restaurant Locator</string>
+    <string name="app1_name">Restaurant Locator</string>
+    <string name="app2_name">Your Data</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="name">USERNAME</string>
+
+    <string name="create_account">REGISTER</string>
+
+    <string name="phone">Contact No</string>
+    <string name="existing"><b><u>Already have an account? Login here</u></b></string>
+
+    <string name="newuser"><u>New User? SignUp now!!!</u></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key">AIzaSyDrB_ENUya8HaIQLf6X83ztoCIqbgH8qbU</string>
+    <string name="google_directions_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDQHuMllFcsd4eBy5u2siT1QU-heW6I_Uc</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+
+</resources>
