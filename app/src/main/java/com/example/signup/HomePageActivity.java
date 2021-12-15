@@ -55,4 +55,9 @@ public class HomePageActivity extends AppCompatActivity {
     public void onBackPressed()
     {
     }
+
+    public void rating(View view) {
+        Intent intent=new Intent(HomePageActivity.this,RatingActivity.class);
+        startActivity(intent);
+    }
 }

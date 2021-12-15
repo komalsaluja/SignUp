@@ -81,18 +81,34 @@
 
     <Button
         android:id="@+id/logoutbtn"
-        android:layout_width="198dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
         android:layout_below="@id/goabtn"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="505dp"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="519dp"
         android:backgroundTint="#90EA3902"
         android:onClick="logout"
         android:text="LOGOUT"
-        android:textSize="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/ratingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="519dp"
+        android:backgroundTint="#90717CE4"
+        android:onClick="rating"
+        android:text="RATE US"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
 </RelativeLayout>

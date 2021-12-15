@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.signup">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -9,9 +8,11 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <queries>
         <package android:name="com.google.android.apps.maps" />
     </queries>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/imageassetbackground"
@@ -19,7 +20,9 @@
         android:roundIcon="@drawable/imageassetforeground"
         android:supportsRtl="true"
         android:theme="@style/Theme.SignUp">
-
+        <activity
+            android:name=".RatingActivity"
+            android:exported="false" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,17 +39,14 @@
             android:name=".MapsActivityGoa1"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-
         <activity
             android:name=".MapsActivityPune1"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-
         <activity
             android:name=".MapsActivityPune2"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-
         <activity
             android:name=".MapsActivityPune3"
             android:exported="false"
@@ -59,7 +59,6 @@
             android:name=".MapsActivityNagpur2"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-
         <activity
             android:name=".MapsActivityMumbai1"
             android:exported="false"
