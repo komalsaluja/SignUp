@@ -73,15 +73,19 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".PuneActivity"
+            android:label="@string/pune"
             android:exported="false" />
         <activity
             android:name=".NagpurActivity"
+            android:label="@string/nagpur"
             android:exported="false" />
         <activity
             android:name=".GoaActivity"
+            android:label="@string/goa"
             android:exported="false" />
         <activity
             android:name=".MumbaiActivity"
+            android:label="@string/mum"
             android:exported="false" />
         <activity
             android:name=".HomePageActivity"

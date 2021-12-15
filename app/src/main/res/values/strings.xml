@@ -16,5 +16,9 @@
     <string name="api_key">AIzaSyDrB_ENUya8HaIQLf6X83ztoCIqbgH8qbU</string>
     <string name="google_directions_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDQHuMllFcsd4eBy5u2siT1QU-heW6I_Uc</string>
     <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="pune">Pune Restaurants</string>
+    <string name="nagpur">Nagpur Restaurants</string>
+    <string name="goa">Goa Restaurants</string>
+    <string name="mum">Mumbai Restaurants</string>
 
 </resources>
