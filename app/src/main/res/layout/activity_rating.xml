@@ -17,6 +17,7 @@
         android:layout_marginTop="150dp"
         android:numStars="5"
         android:rating="4.5"
+        android:progressTint="@color/yellow"
         android:stepSize="0.25" />
 
 
