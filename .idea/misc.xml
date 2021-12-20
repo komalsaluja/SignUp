@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.15170670037926676" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2364102564102564" />
+        <entry key="app/src/main/res/drawable/roundedbutton.xml" value="0.24010416666666667" />
         <entry key="app/src/main/res/layout/activity_goa.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />

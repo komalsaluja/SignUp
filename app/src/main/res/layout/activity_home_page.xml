@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundimg"
+    android:background="@drawable/backgrnd"
     tools:context=".HomePageActivity">
 
 
@@ -29,12 +29,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="179dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="175dp"
         android:adjustViewBounds="true"
+        android:onClick="hotelPune"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/punecity"
-        android:onClick="hotelPune"/>
+        app:srcCompat="@drawable/punecity" />
 
     <ImageButton
         android:id="@+id/ngpbtn"
@@ -75,7 +75,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="serif"
         android:text="WANT TO TRAVEL ? THEN WHY WAIT... JUST CHOOSE!!"
-        android:textColor="@color/white"
+        android:textColor="#70700D"
         android:textSize="30dp"
         android:textStyle="bold|italic" />
 
